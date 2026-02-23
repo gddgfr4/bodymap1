@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <title>3D Musculoskeletal App</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="infoPanel" class="hidden">
+        <h2 id="name">部位名</h2>
+        <p><strong>分類:</strong> <span id="type">-</span></p>
+        <p><strong>働き:</strong> <span id="action">-</span></p>
+        <p><strong>起始/停止:</strong> <span id="origin">-</span></p>
+        
+        <div class="actions">
+            <button id="btnFade">半透明にする (Fade)</button>
+            <button id="btnHide">非表示 (Hide)</button>
+        </div>
+    </div>
+
+    <div id="controls">
+        <button id="btnReset">すべて表示 (Reset All)</button>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/three@0.128.0/examples/js/loaders/GLTFLoader.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/three@0.128.0/examples/js/controls/OrbitControls.js"></script>
+    
+    <script src="app.js"></script>
+</body>
+</html>
