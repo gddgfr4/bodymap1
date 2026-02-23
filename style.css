@@ -1,0 +1,23 @@
+body { margin: 0; overflow: hidden; background-color: #1a1a1a; color: #fff; font-family: sans-serif; }
+canvas { display: block; }
+
+#infoPanel {
+    position: absolute; top: 20px; left: 20px; width: 300px;
+    background: rgba(30, 30, 30, 0.85); padding: 20px;
+    border-radius: 12px; backdrop-filter: blur(10px);
+    border: 1px solid #444; transition: opacity 0.3s;
+}
+#infoPanel.hidden { opacity: 0; pointer-events: none; }
+h2 { margin: 0 0 15px 0; font-size: 20px; color: #4dabf7; }
+p { font-size: 14px; line-height: 1.5; color: #ddd; }
+
+.actions { margin-top: 20px; display: flex; gap: 10px; }
+button {
+    flex: 1; padding: 10px; border: none; border-radius: 6px;
+    background: #333; color: #fff; cursor: pointer; transition: 0.2s;
+}
+button:hover { background: #555; }
+#btnReset { background: #4dabf7; font-weight: bold; }
+#btnReset:hover { background: #3b8bc6; }
+
+#controls { position: absolute; top: 20px; right: 20px; }
