@@ -1,0 +1,16 @@
+{
+  "hamstrings": {
+    "name": "ハムストリングス（大腿裏）",
+    "type": "muscle",
+    "origin": "坐骨結節",
+    "insertion": "脛骨・腓骨の上部",
+    "action": "膝関節の屈曲、股関節の伸展（走る動作の推進力）"
+  },
+  "achilles_tendon": {
+    "name": "アキレス腱",
+    "type": "tendon",
+    "origin": "下腿三頭筋（ふくらはぎ）",
+    "insertion": "踵骨（かかと）",
+    "action": "足関節の底屈を伝達"
+  }
+}
